@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .max-w-1265 {
+        max-width: 1265px;
+    }
+    .w-68 {
+        width: 275px;
+    }
+    .w-87 {
+        width: 350px;
+    }
+    .align-left {
+        align-items: flex-start;
+    }
+    .w-145 {
+        width: 150px;
+    }
+    .text-15 {
+        font-size: 15px;
+    }
+    .text-12 {
+        font-size: 12px;
+    }
+}
